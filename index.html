@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Paolo Conte" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Paolo Conte">Paolo Conte</h1>
+
+          <p class="title">Designer / Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="contact-info">
+              <div class="contact-header">
+                <ion-icon name="location-outline"></ion-icon>
+                <p class="contact-title">Posizione</p>
+              </div>
+              
+              <a href="avellino" class="contact-link">Avellino</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="contact-info">
+              <div class="contact-header">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+                <p class="contact-title">Telefono</p>
+              </div>
+              
+              <a href="tel:3248890654" class="contact-link">3248890654</a>
+            </div>
+
+          </li>
+
+          </li>
+
+          <li class="contact-item">
+
+          <!--
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+          -->
+
+            <div class="contact-info">
+              <div class="contact-header">
+                <ion-icon name="mail-outline"></ion-icon>
+                <p class="contact-title">E-mail</p>
+              </div>
+              
+              <a href="mailto:paoloconte2112@gmail.com" class="contact-link">paoloconte2112@gmail.com</a>
+            </div>
+
+          </li>
+        
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list"> 
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/paolo-conte-dev/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/PaoloConteDev" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://paolocontedev.wixsite.com/portfolio" class="social-link" target="_blank">
+              <ion-icon name="game-controller-sharp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Chi sono</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Curriculum</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+           <!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+           -->
+
+          <!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contattami</button>
+          </li>
+           -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="chi sono">
+
+        <header>
+          <h2 class="h2 article-title">Chi sono</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Professionista versatile nel mondo dello sviluppo, con una profonda passione per la creazione di esperienze innovative. 
+            Mi dedico alla continua evoluzione e sono sempre pronto ad affrontare nuove sfide.
+          </p>
+
+          <p>
+            Il mio ruolo è quello di gestire il ciclo di vita di un progetto, dal concept al rilascio, garantendo che il risultato finale sia sia tecnicamente solido che coinvolgente per l'utente. 
+            Fondere la creatività con la competenza tecnica è l'obiettivo principale del mio lavoro, creando soluzioni di alta qualità che abbiano un forte impatto.
+          </p>
+
+          <p>
+            Sfruttando le mie competenze nella programmazione e nelle arti digitali, trasformo idee complesse in prodotti finali che non solo funzionano, ma sono anche esteticamente curati e intuitivi. 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Abilità</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Project Management</h4>
+
+                <p class="service-item-text">
+                  Capacità di pianificare, eseguire e monitorare progetti dall'inizio alla fine, gestendo scadenze, risorse e team di lavoro per raggiungere gli obiettivi.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Grafica Digitale</h4>
+
+                <p class="service-item-text">
+                  Competenza nell'uso di programmi e strumenti per la creazione e la manipolazione di immagini digitali, illustrazioni, layout e materiali visivi.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Sviluppo Software</h4>
+
+                <p class="service-item-text">
+                  Competenza nella progettazione, scrittura, test e manutenzione di codice per la creazione di applicazioni e sistemi informatici.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gamification</h4>
+
+                <p class="service-item-text">
+                  Abilità nell'applicare principi e meccanismi tipici dei giochi a contesti non ludici per aumentare engagement e motivazione.
+                </p>
+              </div>
+
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+       <!--
+          - skills
+        -->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Competenze</h3>
+
+          <ul class="skills-list">
+            <li class="skills-item">Adobe Suite</li>
+            <li class="skills-item">Affinity</li>
+            <li class="skills-item">Figma</li>
+            <li class="skills-item">Blender</li>
+            <li class="skills-item">Maya</li>
+            <li class="skills-item">DaVinci Resolve</li>
+            <li class="skills-item">Trello</li>
+            <li class="skills-item">Google Docs</li>
+            <li class="skills-item">HTML & CSS</li> 
+            <li class="skills-item">Visual Studio</li>
+            <li class="skills-item">Unity</li>
+            <li class="skills-item">AR/VR Kit</li>
+            <li class="skills-item">Git</li>
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="curriculum">
+
+        <header>
+          <h2 class="h2 article-title">Curriculum</h2>
+        </header>
+
+<section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Esperienze lavorative</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sviluppatore e UI/UX Desginer - Software Sanitario</h4>
+
+              <h2 class="h2 timeline-item-title2">Santec SPA</h2>
+
+              <span>FEB 2025 - PRESENTE</span>
+
+              <p class="timeline-text">
+                Progettazione e manutenzione di una piattaforma ERP sanitaria utilizzata per la
+                gestione delle terapie oncologiche, con l’obiettivo di semplificare i processi clinici e
+                amministrativi. Il software è certificato come dispositivo medico di Classe IIb.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sviluppatore e Game Designer - Applicativo AI Cross-Platform</h4>
+
+              <h2 class="h2 timeline-item-title2">Formula Coach</h2>
+
+              <span>FEB 2023 - GEN 2025</span>
+
+              <p class="timeline-text">
+                Progetto di edutainment B2B sviluppato con Unity, disponibile e ottimizzato sia per
+                PC (WebGL) che per piattaforme mobile. Sfrutta una IA personalizzata per offrire
+                esperienze di apprendimento coinvolgenti e su misura.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sviluppatore e Game Designer - Nintendo Switch</h4>
+
+              <h2 class="h2 timeline-item-title2">My World Srls</h2>
+
+              <span>SET 2022 - FEB 2023</span>
+
+              <p class="timeline-text">
+                Progettato e programmato funzionalità e meccaniche principali di un gioco per
+                Nintendo Switch, sfruttando le caratteristiche dei controller Joy-Con per migliorare
+                l’esperienza di gioco.
+              </p>
+
+            </li>
+
+             <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sviluppatore Indipendente</h4>
+
+              <h2 class="h2 timeline-item-title2">Freelance</h2>
+
+              <span>APR 2021 - SET 2022</span>
+
+              <p class="timeline-text">
+                Partecipato a diversi progetti in ambito Grafico e Software sia autonomamente che per terzi.
+                Sviluppato e rilasciato diversi titoli su Steam e implementando meccaniche complesse e soluzioni scalabili.
+              </p>
+
+            </li>
+
+             </li>
+
+             <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Tutor di Corso</h4>
+
+              <h2 class="h2 timeline-item-title2">Espansione Srl</h2>
+
+              <span>GEN 2018 - DIC 2019</span>
+
+              <p class="timeline-text">
+                Assistente di corso per un’agenzia di formazione aziendale.
+                Gestione pratica corsi, monitoraggio delle presenze e somministrazione test.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formazione</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor's degree in Arti Digitali e Programmazione</h4>
+
+              <h2 class="h2 timeline-item-title2">VHEI - IUDAV</h2>
+
+              <span>OTT 2017 - APR 2021</span>
+
+              <p class="timeline-text">
+                Ho studiato e sperimentato tutti gli aspetti della produzione e dello sviluppo videoludico
+                coprendone l'intero processo, dal concept al rilascio finale e al supporto post-lancio.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Diploma Liceo Scientifico opzione Scienze Applicate</h4>
+
+              <h2 class="h2 timeline-item-title2">Liceo Statale "Paolo Emilio Imbriani"</h2>
+
+              <span>OTT 2013 - AGO 2017</span>
+
+              <p class="timeline-text">
+                Ho acquisito conoscenze e competenze approfondite nel campo delle scienze, con un'attenzione particolare alla loro applicazione pratica.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <!--
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+            -->
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/logo.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Logo Design</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ux.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">UI/UX</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/app.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mobile App</h3>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/foto.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ritocco Foto</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/video.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Montaggio Video</h3>
+
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ai.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Assistente IA</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/game.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Videogiochi</h3>
+
+              </a>
+            </li>
+
+ 
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/3d.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Modellazione 3D</h3>
+
+              </a>
+            </li>
+
+             
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/360.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Esperienza VR/AR</h3>
+
+              </a>
+            </li>
+ 
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contattami">
+
+        <header>
+          <h2 class="h2 article-title">Contattami</h2>
+        </header>
+
+        <section class="contact-text">
+        <p>Sono aperto a nuove opportunità lavorative</p>
+        <p>Sentiti libero di scrivermi, risponderò il prima possibile :)</p>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
